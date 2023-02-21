@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-img img {
+  height: 30px;
+  width: 30px;
+  padding: 50px 5px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    to right,
+    rgba(28, 109, 236, 1),
+    rgba(35, 48, 111, 1)
+  );
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+.header-img {
+  display: flex;
+}
+.header-img h1 {
+  font-size: 50px;
+  font-weight: 800;
+  padding-left: 150px;
+  padding-top: 30px;
+}
+.header-btn {
+  display: flex;
+  margin: 0 150px;
+}
+.header-btn h2 {
+  padding: 50px 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.header-btn button {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 300;
+  background-color: #ff6496;
+  margin: 45px 10px;
+  padding: 0 40px;
+  border-radius: 25px;
+  color: white;
+  border: none;
+}
+.main {
+  background-image: linear-gradient(
+    to right,
+    rgba(30, 100, 217, 1),
+    rgba(35, 51, 118, 1)
+  );
+
+  display: flex;
+  padding-left: 180px;
+  padding-top: 130px;
+  height: 100vh;
+}
+.main p:nth-of-type(1) {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 1000;
+}
+.main p:nth-of-type(2) {
+  color: rgba(255, 255, 255, 0.804);
+  font-family: "Open Sans", sans-serif;
+  padding: 20px 0;
+}
+.main-pg button {
+  background-color: #ff6496;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px 50px;
+  border-radius: 40px;
+  font-size: 15px;
+  margin-top: 20px;
+  border: none;
+}
+.main-img img {
+  height: 300px;
+  margin-top: -90px;
+}
+.main-pg {
+  margin-right: 90px;
+}
+.footer {
+  background-image: linear-gradient(
+    to right,
+    rgba(30, 100, 217, 1),
+    rgba(35, 51, 118, 1)
+  );
+  color: rgba(255, 255, 255, 0.804);
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: -800px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer img {
+  height: 40px;
+}
+
+.footer-forbes img {
+  height: 30px;
+}
+
+.footer-fb__logo {
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-fb__logo p {
+  margin: 0 5px;
+  font-weight: bolder;
+}
+.footer-m p:nth-of-type(1) {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Anton", sans-serif;
+}
+.footer-yrs p:nth-of-type(1) {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Anton", sans-serif;
+}
