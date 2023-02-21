@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  background-color: #19bc9d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+}
+.login-form {
+  height: 430px;
+  width: 450px;
+  background-color: white;
+  box-shadow: 4px 6px 4px -3px rgba(0, 0, 0, 0.49);
+  border-radius: 10px;
+}
+.login-form h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #13a183;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-size: 40px;
+}
+
+form a {
+  text-decoration: none;
+  color: #13a183;
+  font-size: 18px;
+  padding-left: 8px;
+  margin-bottom: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+  background-color: #13a183;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.login-form__signup {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.login-form__signup a {
+  color: #13a183;
+  text-decoration: none;
+}
+/*--- updated code starts ----*/
+.input-container {
+  background-color: #13a183;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin: 8px;
+}
+
+.input-container input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid rgb(208, 206, 206);
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.icon-container {
+  width: 40px;
+  background-color: #13a183;
+  text-align: center;
+}
+
+i {
+  color: white;
+}
+/*--- updated code end ---*/
