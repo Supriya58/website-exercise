@@ -3,45 +3,30 @@
   padding: 0;
 }
 body {
-  background-color: #dcdddf;
+  background-color: white;
   font-family: "Lato", sans-serif;
+  height: 100vh;
 }
-.icon-s img {
-  height: 20px;
-  width: 20px;
-  padding-left: 40px;
+/* hero container */
+.hero {
+  background-color: #dde1e2;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  height: 450px;
 }
-.icon {
+/* hero header nav css */
+.hero-header {
   display: flex;
   justify-content: space-between;
   padding-top: 15px;
 }
 
-.anchortag a:nth-of-type(1) {
-  padding-right: 80px;
-}
-.anchortag a:nth-of-type(2) {
-  padding-right: 80px;
-}
-.anchortag a:nth-of-type(3) {
-  padding-right: 80px;
-}
-.anchortag a {
-  text-decoration: none;
-  color: #6d7072;
-}
-.icon button {
-  margin-right: 40px;
-  font-family: "Lato", sans-serif;
-  color: #56595b;
-  padding: 5px 30px;
-  border: none;
-  border-radius: 10px;
-}
 .icon-s {
   display: flex;
   margin-left: 40px;
 }
+
 .icon-s h2 {
   text-transform: uppercase;
   font-size: 15px;
@@ -54,10 +39,70 @@ body {
   color: white;
   padding-left: 5px;
 }
+
 .logo {
   height: 20px;
   width: 20px;
   background-color: black;
   border-radius: 50%;
   padding: 5px;
+}
+
+.anchortag a {
+  text-decoration: none;
+  color: #6d7072;
+}
+
+.anchortag a:nth-of-type(1) {
+  padding-right: 80px;
+}
+
+.anchortag a:nth-of-type(2) {
+  padding-right: 80px;
+}
+
+.anchortag a:nth-of-type(3) {
+  padding-right: 80px;
+}
+
+button {
+  margin-right: 40px;
+  font-family: "Lato", sans-serif;
+  color: #56595b;
+  padding: 5px 30px;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: bisque;
+  cursor: pointer;
+}
+
+/* hero main body with titles and image */
+.hero-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* container for titles h1,p,form */
+.hero-title {
+  width: 40%;
+  padding: 50px;
+}
+
+/* conter for sound img */
+.hero-sound {
+  width: 60%;
+  height: 100%;
+  background-image: url("wave.png");
+  background-position: right;
+  overflow: hidden;
+}
+
+img {
+  transform: rotateY(180deg);
+  width: 500px;
+  height: 400px;
+  object-fit: contain;
 }
