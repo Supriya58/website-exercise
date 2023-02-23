@@ -65,7 +65,7 @@ body {
   padding-right: 80px;
 }
 
-button {
+a button {
   margin-right: 40px;
   font-family: "Lato", sans-serif;
   color: #56595b;
@@ -74,7 +74,7 @@ button {
   border-radius: 10px;
 }
 
-button:hover {
+a button:hover {
   background-color: bisque;
   cursor: pointer;
 }
@@ -89,6 +89,7 @@ button:hover {
 .hero-title {
   width: 40%;
   padding: 50px;
+  position: relative;
 }
 
 /* conter for sound img */
@@ -99,10 +100,123 @@ button:hover {
   background-position: right;
   overflow: hidden;
 }
+.hero-title h1 {
+  font-size: 40px;
+  color: #21383e;
+  padding-right: 80px;
+}
+.hero-title p {
+  color: #798588;
+  padding: 16px 0;
+  font-size: 15px;
+  padding-right: 80px;
+}
+.form-container {
+  background-color: white;
+  /* border: 2px solid black; */
+  border-radius: 40px;
+  position: absolute;
+  bottom: 120px;
+  right: -50px;
+  width: 90%;
+  height: 18%;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+}
+.form-container form {
+  padding: 15px 30px;
+}
+form button {
+  border: none;
+  background-color: #305f63;
+  color: white;
+  padding: 20px 55px;
+  border-radius: 30px;
+  margin-right: -20px;
+}
+.form-input label {
+  color: #798588;
+  font-size: 13px;
+}
 
-img {
+.form-input input {
+  border: none;
+  outline: none;
+}
+
+.hero-title img {
+  height: 90px;
+  width: 90px;
+  padding: 30px 0;
+}
+.hero-sound img {
   transform: rotateY(180deg);
   width: 500px;
   height: 400px;
   object-fit: contain;
+}
+
+.footer-melody {
+  display: flex;
+}
+.footer-melody span {
+  padding: ;
+}
+iframe {
+  height: 150px;
+  width: 250px;
+  border-radius: 10px;
+}
+.melody {
+  padding: 20px;
+}
+.melody p:nth-of-type(1) {
+  padding-top: 10px;
+}
+.melody p:nth-of-type(2) {
+  font-size: 13px;
+  color: #798588;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 300;
+  padding-left: 22px;
+  padding-top: 20px;
+}
+
+.weekly {
+  margin-right: 300px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header h3:nth-of-type(2) {
+  margin-right: 370px;
+  padding-bottom: 20px;
+}
+.weekly li {
+  list-style: none;
+  font-size: 16px;
+  color: #798588;
+  margin: 20px;
+}
+.weekly span {
+  border-radius: 50%;
+  padding: 10px 14px;
+  font-size: 10px;
+  margin: 10px;
+  border: 1px solid #305f63;
+}
+.weekly p {
+  font-size: 10px;
+  padding: 8px;
+  color: #798588;
+  margin-left: 50px;
 }
